@@ -1,0 +1,22 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "hostRequirements": {
+        "cpus": 4
+    },
+    "waitFor": "onCreateCommand",
+    "updateContentCommand": "python3 -m pip install -r requirements.txt",
+    "postCreateCommand": "",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "PSI_TA_Scy6803GTA/step 1 target_PSI_TA_ideal.ipynb"
+            ]
+        },
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-python.python"
+            ]
+        }
+    }
+}

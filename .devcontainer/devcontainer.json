@@ -13,6 +13,11 @@
             ]
         },
         "vscode": {
+            "settings": {
+                "workbench.editorAssociations": {
+                    "*.md": "vscode.markdown.preview.editor"
+                }
+            },
             "extensions": [
                 "ms-toolsai.jupyter",
                 "ms-python.python"
